@@ -47,19 +47,18 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <Navigation />
       
       <section className="relative pt-32 pb-20 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
         
         <div className="container mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
-              <h1 className="text-5xl lg:text-6xl font-bold text-primary leading-tight">
+              <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
                 Искусство барменства начинается здесь
               </h1>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg text-white/80">
                 Профессиональное обучение барменскому мастерству от практикующих экспертов. 
                 Освойте craft-коктейли, классику и современные техники.
               </p>
@@ -87,7 +86,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-secondary/30">
+      <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
@@ -112,8 +111,8 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl font-bold text-primary mb-4">Новости и события</h2>
-            <p className="text-lg text-muted-foreground">Следите за актуальными мероприятиями школы</p>
+            <h2 className="text-4xl font-bold text-white mb-4">Новости и события</h2>
+            <p className="text-lg text-white/80">Следите за актуальными мероприятиями школы</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -155,7 +154,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-primary text-primary-foreground py-12 px-4">
+      <footer className="bg-black/20 backdrop-blur-sm text-white py-12 px-4 border-t border-white/10">
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-2 mb-6">
             <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
@@ -163,10 +162,10 @@ const Index = () => {
             </div>
             <span className="text-2xl font-bold">BarSchool</span>
           </div>
-          <p className="text-primary-foreground/80 mb-4">
+          <p className="text-white/80 mb-4">
             Профессиональная школа барменского искусства
           </p>
-          <div className="flex justify-center space-x-6 text-sm text-primary-foreground/60">
+          <div className="flex justify-center space-x-6 text-sm text-white/60">
             <span>© 2025 BarSchool</span>
             <span>•</span>
             <span>Все права защищены</span>
