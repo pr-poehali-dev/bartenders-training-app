@@ -19,7 +19,7 @@ const Navigation = () => {
             <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
               <Icon name="Wine" className="text-white" size={24} />
             </div>
-            <span className="text-xl font-bold text-white">BarSchool</span>
+            <span className="text-xl font-bold text-white">THE SPIRIT GUIDE</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-1">

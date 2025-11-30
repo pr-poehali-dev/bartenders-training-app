@@ -160,13 +160,13 @@ const Index = () => {
             <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
               <Icon name="Wine" className="text-accent-foreground" size={24} />
             </div>
-            <span className="text-2xl font-bold">BarSchool</span>
+            <span className="text-2xl font-bold">THE SPIRIT GUIDE</span>
           </div>
           <p className="text-white/80 mb-4">
             Профессиональная школа барменского искусства
           </p>
           <div className="flex justify-center space-x-6 text-sm text-white/60">
-            <span>© 2025 BarSchool</span>
+            <span>© 2025 THE SPIRIT GUIDE</span>
             <span>•</span>
             <span>Все права защищены</span>
           </div>
